@@ -32,6 +32,10 @@ km.forEach(([key, value]) => {
         types.string.push(value);
     } else if (type === "number") {
         types.number.push(value);
+    } else if (type === "boolean") {
+        types.boolean.push(value)
+    } else if (type === "object") {
+        types.object.push(value)
     }
 });
 
